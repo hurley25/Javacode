@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="main_text">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="pls_talk_normal">#FF7072</color>
+    <color name="search_hint">#000000</color>
+    <color name="goodluck_addword">#000000</color>
+    <color name="common_text">#552006</color>
+</resources>

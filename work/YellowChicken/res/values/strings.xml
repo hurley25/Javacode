@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">小黄鸡</string>
+    <string name="info"> 大家好，我是最最有爱的墨城。\n 今天做了个小黄鸡的安卓版，\n 小黄鸡，嗯，最近比较火，\n 聊天神马的最有爱了！\n 老规矩开源，源码和更新\n请到osdn.tk/?page_id=92下载，\n有问题请发邮件到mocsdn@gmail.com，\n 猛戳最下面的按钮，开始调教小黄鸡吧~</string>
+</resources>

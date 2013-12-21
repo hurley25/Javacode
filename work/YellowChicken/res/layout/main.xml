@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/common_bg"
+    >
+    <RelativeLayout
+	android:id="@+id/common_title"
+	android:background="@drawable/common_title_bg"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="3dp"
+	android:orientation="horizontal"
+	android:gravity="center"
+	android:focusable="false">
+	<ImageButton
+		android:id="@+id/search_title"
+		android:src="@drawable/common_title_homepic"
+		android:layout_alignParentLeft="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@null"
+		android:layout_marginLeft="10dip"></ImageButton>
+	<ImageButton
+		android:id="@+id/search_title_name"
+		android:src="@drawable/chat_title_name"
+		android:layout_centerHorizontal="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="3dip"
+		android:background="@null"></ImageButton>
+	<ImageButton
+		android:id="@+id/search_title"
+		android:src="@drawable/main_title_about"
+		android:layout_alignParentRight="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@null"
+		android:layout_marginRight="10dip"></ImageButton>
+</RelativeLayout>
+<RelativeLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:layout_below="@id/common_title">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:textColor="#000000"
+    android:text="@string/info"
+    android:textSize="15dip"
+    />
+
+	<ImageButton
+		android:id="@+id/kailu"
+		android:src="@drawable/kailu"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+		android:background="@null"></ImageButton>
+</RelativeLayout>
+</RelativeLayout>
